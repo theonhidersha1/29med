@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Functions</title>
+</head>
+<body>
+    <h1>JavaScript Array Functions</h1>
+
+    <script>
+        // Create an array containing five numbers
+        let numbers = [10, 20, 30, 40, 50];
+
+        // 1. Add a number to the end of the array
+        numbers.push(60);
+
+        // 2. Remove the first number
+        numbers.shift();
+
+        // 3. Add a new number at the second position
+        numbers.splice(1, 0, 15);
+
+        // 4. Display the modified array in the console
+        console.log(numbers);
+    </script>
+</body>
+</html>
